@@ -20,6 +20,7 @@
 #globalheader {
 	margin-right: auto;
 	margin-left: auto;
+	width: 980px;
 }
 
 #globalheader #gh_nav_logo {
@@ -87,7 +88,8 @@
 #main_wrap #main {
 	margin-right: auto;
 	margin-left: auto;
-	height: 600px;
+	width: 980px;
+	height: 550px;
 }
 
 #footer{
