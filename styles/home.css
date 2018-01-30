@@ -20,14 +20,14 @@
 #globalheader {
 	margin-right: auto;
 	margin-left: auto;
-	width: 980px;
+	width: 956px;
 }
 
 #globalheader #gh_nav_logo {
 	height: 50px;
 	float:left;
 	margin-right: 40px;
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 }
 #gh_nav_logo a {
 	text-decoration: none;
@@ -69,9 +69,11 @@
 #gh_nav_content #gh_nav_a_home {
 	margin-left: 0px;
 }
+
 #gh_nav_content .gh_nav_inner {
 	display: block;
-	margin-top: 14px;
+	/*margin-top: 14px;*/
+	padding-top: 14px;
 	font-family:"" Lucida Grande ", " Lucida Sans Unicode ", Helvetica, Arial, Verdana, sans-serif";
 }
 
@@ -88,8 +90,74 @@
 #main_wrap #main {
 	margin-right: auto;
 	margin-left: auto;
-	width: 980px;
-	height: 550px;
+	/*width: 980px;
+	height: 550px;*/
+}
+
+.product-wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	background-color: lightgray;
+}
+
+.product_body {
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	/*height: 200px;*/
+	width: 956px;
+	/*background-color: white;*/
+	/*background-color: #e1dfdf;*/
+}
+
+#bottom_product_wrapper {
+	height: 400px;
+}
+
+#first_product_body {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.product_iocn {
+	float: left;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	width: 116px;
+}
+
+.product_description {
+	display: block;
+	float: left;
+	width: 840px;
+	padding-top: 14px;
+}
+
+.product_description a {
+	color: #656565;
+	text-decoration: none;
+}
+
+.product_description a:hover {
+	color: #ffffff;
+}
+
+.product_title_href {
+	font-family:"" Lucida Grande ", " Lucida Sans Unicode ", Helvetica, Arial, Verdana, sans-serif";
+	font-size: 180%;
+}
+
+.product_destription_text {
+	font-family:"" Lucida Grande ", " Lucida Sans Unicode ", Helvetica, Arial, Verdana, sans-serif";
+}
+
+.imgSize {
+	width: 100px;
+	height: 100px;
+}
+
+#footer_wrapper {
+	clear: both;
 }
 
 #footer{
